@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>هجوم و اختراق حب الكتروني</title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="theme-color" content="#b10f2e"/>
+</head>
+<body>
+  <!-- عبارة المرحلة 1: الفاتنة الي على قلبي تمون -->
+  <div class="grid-bg"></div>
+
+  <div class="helper">
+    <button id="helpBtn" aria-label="مساعدة">؟</button>
+  </div>
+
+  <main class="container">
+    <header class="hero card">
+      <h1>هجوم و اختراق حب الكتروني</h1>
+      <p class="subtitle"أهداء الى دانية توليبتي.</p>
+      <button id="startBtn" class="primary">ابدئي</button>
+    </header>
+
+    <section id="stage1" class="card hidden">
+      <h2>١ — أثر لا يراه إلا من يهمني</h2>
+      <p>كتبت كلمات تشبهك في هوامش هذه الصفحة. افتحي مصدر الصفحة، وانسخي العبارة كما هي.</p>
+      <div class="input-row">
+        <input id="pass1" type="text" placeholder="اكتبي العبارة هنا"/>
+        <button id="check1" class="primary">تحقق</button>
+        <button id="hint1" class="ghost">تلميح</button>
+      </div>
+      <p id="msg1" class="msg"></p>
+    </section>
+
+    <section id="stage2" class="card hidden">
+      <h2>٢ — لُغة ما بين السطر والرمز</h2>
+      <p>هذي الكلمة مكتوبة بإيموجي… لو بتسمعي قلبي، بتقريها: <span class="big-emoji">🌴🧿🦁🧊🅱️</span></p>
+      <div class="input-row">
+        <input id="pass2" type="text" placeholder="اكتبي الكلمة بالعربي"/>
+        <button id="check2" class="primary">تحقق</button>
+        <button id="hint2" class="ghost">تلميح</button>
+      </div>
+      <p id="msg2" class="msg"></p>
+    </section>
+
+    <section id="stage3" class="card hidden">
+      <h2>٣ — قهوة بطعم </h2>
+      <p>المشروب البني… وتعرفينه زين وتحبي, لكن هذا لقب لشخص مالك  😉</p>
+      <div class="input-row">
+        <input id="pass3" type="text" placeholder="الإجابة بالعربي"/>
+        <button id="check3" class="primary">تحقق</button>
+        <button id="hint3" class="ghost">تلميح</button>
+      </div>
+      <p id="msg3" class="msg"></p>
+    </section>
+
+    <section id="stage4" class="card hidden">
+      <h2>٤ — أسرار لا تعترف بالضوء</h2>
+      <p>في الصورة سرّ ما يتشاف… لكن يُستخرج.</p>
+      <div class="photoStage">
+        <img src="assets/photo_stage_stego.png" alt="صورة المرحلة" class="img"/>
+      </div>
+      <div class="input-row">
+        <input id="pass4" type="text" placeholder="اكتبي الرمز المخفي"/>
+        <button id="check4" class="primary">تحقق</button>
+        <button id="hint4" class="ghost">تلميح</button>
+      </div>
+      <p id="msg4" class="msg"></p>
+    </section>
+
+    <section id="stage5" class="card hidden">
+      <h2>٥ — مرآة تقول الحقيقة بالعكس</h2>
+      <p>اقرئي هذي الكلمة وكأنها في المرآة: <strong>ةآرم</strong></p>
+      <div class="input-row">
+        <input id="pass5" type="text" placeholder="كلمة واحدة"/>
+        <button id="check5" class="primary">تحقق</button>
+        <button id="hint5" class="ghost">تلميح</button>
+      </div>
+      <p id="msg5" class="msg"></p>
+    </section>
+
+    <section id="stage6" class="card hidden">
+      <h2>٦ — أول الحروف يقول الباقي</h2>
+      <p>خذي أول حرف من كل سطر:</p>
+      <pre class="acrostic">
+قدرك عندي لا يشبه أحدًا
+لبّيت قلبي فهدأ
+بكِ يبتسم نهاري
+      </pre>
+      <div class="input-row">
+        <input id="pass6" type="text" placeholder="كلمة قصيرة"/>
+        <button id="check6" class="primary">تحقق</button>
+        <button id="hint6" class="ghost">تلميح</button>
+      </div>
+      <p id="msg6" class="msg"></p>
+    </section>
+
+    <section id="stage7" class="card hidden">
+      <h2>٧ — عينين… وما أدراك</h2>
+      <p>أجمل عيون بالطابع العربي… تعرفين الوصف؟ اكتبيه كما يُقال.</p>
+      <div class="input-row">
+        <input id="pass7" type="text" placeholder="عبارة عربية"/>
+        <button id="check7" class="primary">تحقق</button>
+        <button id="hint7" class="ghost">تلميح</button>
+      </div>
+      <p id="msg7" class="msg"></p>
+    </section>
+
+    <section id="stage8" class="card hidden">
+      <h2>٨ — المفتاح مع شخص قريب</h2>
+      <p>هذا المفتاح ما ينكتب هنا. اسألي حدّ قريب جدًا… هو يعرف كلمة السر.</p>
+      <div class="input-row">
+        <input id="pass8" type="text" placeholder="رمز الحارس"/>
+        <button id="check8" class="primary">تحقق</button>
+        <button id="hint8" class="ghost">تلميح</button>
+      </div>
+      <p id="msg8" class="msg"></p>
+    </section>
+
+    <section id="stage9" class="card hidden">
+      <h2>٩ — كلمة مختبئة بين الكلمات</h2>
+      <p>خذي أول حرف من كل كلمة في الجملة التالية:</p>
+      <blockquote>أريد حبًا بريئًا كريمًا</blockquote>
+      <div class="input-row">
+        <input id="pass9" type="text" placeholder="كلمة قصيرة"/>
+        <button id="check9" class="primary">تحقق</button>
+        <button id="hint9" class="ghost">تلميح</button>
+      </div>
+      <p id="msg9" class="msg"></p>
+    </section>
+
+    <section id="stage10" class="card hidden">
+      <h2>١٠ — التعريف كما تحبينه</h2>
+      <p>اكتبي اسمكِ الكامل كما تنطقينه.</p>
+      <div class="input-row">
+        <input id="pass10" type="text" placeholder="الاسم الكامل"/>
+        <button id="check10" class="primary">تحقق</button>
+        <button id="hint10" class="ghost">تلميح</button>
+      </div>
+      <p id="msg10" class="msg"></p>
+    </section>
+
+    <section id="finale" class="card hidden">
+      <h2>تم الوصول — Access Granted</h2>
+      <pre class="terminal" id="terminal">Access Granted...
+Initializing secure channel...
+      </pre>
+      <p class="final-note">رسالتي لكِ يا دانية 🌹</p>
+    </section>
+
+    <footer><small>© الحقوق محفوظة — صُنعت بـ ❤️ بواسطة Ibrahim</small></footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
